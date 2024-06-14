@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+   color:black;
+   background-color: #fff;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* header styling begins */
+
+header{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+}
+.overlay {
+    width: 100%;
+    height: 50rem;
+    background-color: black;
+    opacity: 0.6;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  position: fixed;
+  top: 0; 
+  left: 0;
+}
+nav ul{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+nav li{
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(150, 77, 218);
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+nav h1{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(150, 77, 218);
+
+}
+nav .btn1{
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: rgb(150, 77, 218);
+}
+nav .btn1 a {
+  text-decoration: none;
+  color: #f7f7f7;
+  font-size: 0.8rem;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 15rem 5rem;
+    color: #fff;
+}
+header .item{
+    font-size: 1.5rem;
+    width: 50%;
+    margin-bottom: 5rem;
+    padding: 1rem ;
+}
+header .container h3{
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 1rem;
+}
+header .container p{
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    padding: 1rem;
+}
+header .container .btn2{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: rgb(150, 77, 218);
+    margin: 0 1rem;
+}
+
+header form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 3rem;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    width: 40%;
+}
+header label{
+    color: #333;
+    font-size: 1.5rem;
+}
+header input{
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid;
+    border-radius: 0.5rem;
+
+}
+header .btn3{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(150, 77, 218);
+    color: #fff;
+    width: 50%;
+}
+/* header styling ends */
+/* section1 styling begins */
+.section1 .flexitem{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: -9.5rem;
+}
+.section1 h1{
+    text-align: center;
+    padding: 4rem;
+    margin: 0;
+   font-size: 3rem;
+   color: #fff;
+   background-color:  rgb(150, 77, 218);
+   width: 100%;
+   height: 400px;
+}
+.section1 .article1 .item1{
+    background-image: url("../images/img1.jpg");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.section1 .article1 .item2{
+    background-image: url("../images/img2.jpg");
+    width: 100%;
+    height: 195px;
+    background-size: cover;
+    background-position: center;
+}
+.section1 .article1 .item4{
+    background-image: url("../images/img4.jpg");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.section1 .article1{
+border: 0.2px solid;
+width: 25%;
+height: 440px;
+font-size: 1rem;
+}
+.section1 .article1 .p6{
+    margin-top: -3.5rem;
+    margin-bottom: 2rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-left: 16rem;
+    padding: 1rem;
+    background-color: rgb(150, 77, 218);
+}
+.section1 .article1 .item1-con{
+    padding: 0.8rem 0;
+}
+.section1 .article1 .item1-con .p5{
+   padding: 0.5rem 1rem 0 1rem;
+   color:rgb(150, 77, 218); 
+}
+.section1 .article1 .item1-con .p1,.p2{
+   padding: 0.5rem 1rem 0 1rem; 
+}
+.section1 .article1 .item1-con .p3{
+   margin-top: 1.5rem ;
+    border-top: 0.1px solid;
+   display: flex;
+   justify-content: space-between; 
+   flex-wrap: wrap; 
+}
+.section1 .article1 .item1-con .p4{
+   border-left: 1px solid;
+   padding: 1rem;
+}
+.section1 .article1 .item1-con .p7{
+   padding: 1rem;
+}
+.section1 button{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: rgb(150, 77, 218);
+}
+.section1 .btn{
+    margin-top: 2rem;
+     display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+/* section1 styling ends */
+
+
+/* section2 styling begins */
+.section2{
+    margin-top: 4rem;
+    padding: 4rem;
+    background-color: #f7f7f7;
+}
+.section2 h1{
+    margin:auto;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+}
+.section2 h2{
+    margin:auto;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: black;
+}
+.section2 .p1{
+    margin:auto;
+    width: 50%;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 200;
+    color: #333;
+}
+.section2 .flexitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    width: 100%;
+    margin: auto;
+    padding: 5rem;
+}
+.section2 .flexitem .item1{
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 400px;  
+    border-radius: 2rem;
+}
+.section2 .flexitem .item3{
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 400px;  
+    border-radius: 2rem;
+}
+.section2 .flexitem .item4{
+    background-image: url("../images/background3.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 400px;  
+    border-radius: 2rem;
+}
+.section2 .flexitem .item2{
+    width: 35%;
+    height: 200px;
+}
+.section2 .flexitem .uil{
+    background-color: rgb(150, 77, 218);
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+.section2 .flexitem .p2{
+    padding: 2rem 0;
+}
+/* section2 styling ends */
+
+/* section3 styling begins */
+.section3{
+    padding: 4rem 0;
+    margin-top: 8rem;
+}
+.section3 h1{
+    margin:auto;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+}
+.section3 .p1{
+    margin:auto;
+    width: 50%;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333;
+}
+.section3 .p2{
+     padding: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333;
+}
+.section3 .flexitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: 100%;
+    margin: auto;
+    padding: 5rem;
+}
+.section3 .flexitem .item1{
+    background-image: url("../images/person_1.jpg");
+    background-size: cover;
+    width: 55%;
+    height: 150px;  
+    border-radius: 10rem;
+    margin-top: -4rem;
+}
+.section3 .flexitem .item2{
+    background-image: url("../images/person_2.jpg");
+    background-size: cover;
+    width: 55%;
+    height: 150px;  
+    border-radius: 10rem;
+    margin-top: -4rem;
+}
+.section3 .flexitem .item3{
+    background-image: url("../images/person_3.jpg");
+    background-size: cover;
+    width: 55%;
+    height: 150px;  
+    border-radius: 5rem;
+    margin-top: -4rem;
+}
+.section3 .article1{
+border: 0.1px solid;    
+width: 25%;
+height: 350px;
+font-size: 1rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.section3 .item1-con{
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333;
+}
+/* section3 styling ends */
+
+
+/* section4 styling begins */
+.section4{
+    background-image: url("../images/background.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    color: #f7f7f7;
+    margin-top: 5rem;
+}
+.section4 .overlay {
+    width: 100%;
+    height: 300px;
+    background-color:black;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section4 img{
+    width: 10%;
+    border-radius: 10rem;
+}
+.section4 h1{
+    font-size: 1.2rem;
+    color: #fff;
+}
+.section4 p{
+    font-size: 1rem;
+    width: 60%;
+    text-align: center;
+}
+/* section4 styling ends */
+
+
+/* section5 styling begins */
+.section5{
+    background-color: #f7f7f7;
+    padding: 2rem;
+}
+.section5 h1{
+    margin:2rem auto;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+}
+.section5 p{
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+.section5 .container{
+    background-color: #f7f7f7;
+    width: 30%;
+    height: 350px;
+    border: 1px solid;
+    padding: 0.5rem;
+}
+.section5 .container .uil{
+    background-color: rgb(150, 77, 218);
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+.section5 img{
+    width: 50%;
+}
+.section5 .flexitem{
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem ;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    margin: 1rem;
+
+}
+/* section5 styling ends */
+
+
+/* section6 styling begins */
+.section6{
+    background-color: #f7f7f7;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2rem;
+    padding: 5rem;
+    
+}
+.section6 h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    padding: 2rem 0;
+}
+.section6 p{
+    font-size: 1.2rem;
+    width: 60%;
+    padding: 1rem 0;
+}
+.section6 .form2{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.section6 .form1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.section6 #fn{
+  width: 200px;
+  padding: 1rem;
+  background-color: #fff;
+  font-size: 1rem;
+  border: none;
+}
+.section6 input {
+  width: 500px;
+  padding: 1rem;
+  background-color: #fff;
+  font-size: 1rem;
+  border: none;
+}
+.section6 textarea {
+  width: 500px;
+  padding: 1rem;
+  height: 200px;
+  background-color: #fff;
+  border: none;
+}
+.section6 button {
+  border-radius: 1.5rem;
+  width: 200px;
+  padding: 1rem;
+  background-color:rgb(150, 77, 218);
+  border: none;
+}
+/* section6 styling ends */
+
+
+/* section7 styling begins */
+.section7{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.section7 .item1 h1,.item2 h1,.item3 h1{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.section7 p{
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+.section7 .item1,.item2,.item3{
+    width: 30%;
+    padding: 2rem;
+}
+.section7 .item2 a,li{
+    text-decoration: none;
+    color: rgb(150, 77, 218);
+    list-style: none;
+    padding: 1rem 0;
+}
+.section7 input{
+  width: 150px;
+  padding: 1rem;
+  background-color: #fff;
+  font-size: 1rem;
+  border: 1px solid;
+}
+.section7 button {
+  border-radius: 1rem;
+  width: 100px;
+  padding: 1rem;
+  background-color:rgb(150, 77, 218);
+  border: none;
+}
+/* section7 styling ends */
+
+/* footer styling begins */
+footer{
+    padding-top: 5rem;
+    text-align: center;
+}
+footer p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(150, 77, 218);
+}
+footer div{
+    width: 40%;
+    margin: 3rem auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+footer .uil{
+    font-size: 2rem;
+    background-color: rgb(150, 77, 218);
+    color: #fff;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+/* footer styling ends */
+
+
+
+
+
+
